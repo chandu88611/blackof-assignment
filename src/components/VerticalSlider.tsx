@@ -65,7 +65,7 @@ const VerticalSlider: React.FC = () => {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
-    beforeChange: (current: number, next: number) => setActiveSlide(next),
+    beforeChange: (_: number, next: number) => setActiveSlide(next),
   };
 
   const handleButtonClick = (index: number) => {

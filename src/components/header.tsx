@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Link, Drawer, List, ListItem, ListItemText, Container } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Link, Drawer, List, ListItem, ListItemText, Container } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 

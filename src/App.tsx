@@ -1,10 +1,9 @@
 // src/App.js
-import React from 'react';
 import Header from './components/header';
 import VerticalSlider from './components/VerticalSlider';
 import HorizontalSlider from './components/HorizontalSlider';
 import GetInTouch from './components/GetinTouch';
-import FooterSection from './components/Footer';
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       <VerticalSlider />
       <HorizontalSlider />
       <GetInTouch/>
-      <FooterSection/>
+      <Footer/>
       {/* Add more components as needed */}
     </div>
   );

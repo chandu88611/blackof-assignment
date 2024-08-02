@@ -40,7 +40,7 @@ const HorizontalSlider: React.FC = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    beforeChange: (oldIndex: number, newIndex: number) => setCurrentSlide(newIndex),
+    beforeChange: (_: number, newIndex: number) => setCurrentSlide(newIndex),
   };
 
   const next = () => {
